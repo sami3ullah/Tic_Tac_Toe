@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="TicTacToe.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <div class="container">
+      <h1 class="mainText">Lets play Tic Tac Toe</h1><br>
+      <div class="players">
+        <div class="red">
+          <span class="playerRedScore">0</span>
+        </div>
+
+        <div class="yellow">
+          <span class="playerYellowScore">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <img class="tac tac-1" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(0)"></div>
+
+          <img class="tac tac-2" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(1)"></div>
+          
+          <img class="tac tac-3" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(2)"></div>    
+        </div>
+        
+        <div class="row">
+          <img class="tac tac-4" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(3)"></div>
+
+          <img class="tac tac-5" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(4)"></div>
+
+          <img class="tac tac-6" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(5)"></div>    
+        </div>
+        
+        <div class="row">
+          <img class="tac tac-7" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(6)"></div>
+
+          <img class="tac tac-8" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(7)"></div>
+
+          <img class="tac tac-9" src="red.png" alt="tac">
+          <div class="tac_container" onclick="clickedDiv(8)"></div>    
+        </div>  
+    </div>
+
+    <button class="playAgain" onclick="reset()">Play Again</button>
+
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
